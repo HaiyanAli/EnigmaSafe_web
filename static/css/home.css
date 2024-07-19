@@ -1,0 +1,293 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body{
+    background-color: #302f2f;
+    font-family: "Ubuntu Sans", sans-serif;
+
+    }
+    nav{
+        height: 70px;
+        background-color: #202020;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav div{
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+    nav div img{
+        height: 100%;
+    }
+    nav div h1{
+        color: white;
+        font-size: 40px;
+        /* font-family: "Caveat", cursive; */
+        font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+    nav div button{
+        border: none;
+        background: none;
+        height: 95%;
+        color: white;
+        font-size: 20px;
+        margin: 0 3px;
+        transition: all 0.3s ease;
+    }
+    nav div button:hover{
+        color: rgb(221, 221, 221);
+    }
+    .passwords_container{
+        height: calc(100vh - 130px);
+        max-width: 900px;
+        margin: auto;
+        border: 2px solid rgba(255, 255, 255, .2);
+        border-radius: 5px;
+        padding: 0 20px;
+    }
+    .password_serach_box{
+        width: 95%;
+        height: 50px;
+        background-color: #202020;   
+        display: flex;
+        align-items: center;
+        padding: 0 15px;   
+        justify-content: space-between;     
+        border: 2px solid rgba(255, 255, 255, .2);
+        border-radius: 50px;   
+        margin: 10px auto;
+    }
+    .password_serach_box input{
+        width: 97%;
+        height: 70%;
+        background: none;
+        border: none;   
+        color: white;
+    }
+    .password_serach_box input:focus{
+        outline: none;
+    }
+    .password_serach_box input::placeholder{
+        color: white;
+    }
+    .password_serach_box button{
+        background: none;
+        border: none;
+        color: white;
+        font-size: 22px;
+    }
+
+    .delete_btn,
+    .copy_btn{
+        width: 30px;
+        height: 30px;
+        background-color: #73bb06;
+        color: white;
+        border: 2px solid rgba(255, 255, 255, .2);
+        transition: all 0.3s ease;
+        margin-right: 5px;
+    }
+    .delete_btn{
+        background-color: #c91818;
+    }
+    .delete_btn:hover{
+        background-color: #b80f0f;
+    }
+    .copy_btn:hover{
+        background-color: #69a70c;
+    }
+    .table-responsive{
+        max-height:90% ; 
+        overflow-y: scroll;
+    }
+    .table-responsive::-webkit-scrollbar {
+    width: 5px;
+    }
+
+    .table-responsive::-webkit-scrollbar-track {
+    background: none; 
+    }
+    .table-responsive::-webkit-scrollbar-thumb {
+    background: #dbab6e; 
+    border-radius:50px
+    }
+    .table-responsive::-webkit-scrollbar-thumb:hover {
+    background: red; 
+    }
+
+
+
+
+
+
+
+    .pin_modal_box{
+        min-height: 200px;
+        background-color: #202020;
+        padding: 20px;
+      }
+      .pin_modal_box header{
+        color:  #dbab6e;
+        width: 100%;
+        text-align: center;
+        font-size: 60px;
+      }
+      .pin_modal_box h3{
+        color: white;
+        margin: 30px auto;
+    
+      }
+      .pin_modal_box form{
+        width: 70%;
+        margin: auto;
+      }
+      .pin_modal_box div{
+        display: flex;
+        justify-content: space-between;
+      }
+      .pin_modal_box form input{
+        width: 60px;
+        height: 60px;
+        font-size: 45px;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+      }
+    
+      .pin_modal_box form input:focus{
+        outline: none;
+      }
+      .pin_modal_box form button{
+        width: 100%;
+        margin: 30px 0;
+        height: 50px;
+        border: 2px solid#eea84b;
+        background-color: #dbab6e;
+        border-radius: 10px;
+        color: white;
+        font-size: 22px;
+        letter-spacing: 2px;
+        font-weight: 500;
+      }
+
+      nav ul li{
+        cursor: pointer;
+        border: 1px solid grey;
+        margin: 2px;
+        font-size: 12px;
+        padding: 3px;
+        transition: all 0.3s ease;
+      }
+      nav ul li:hover{
+        background-color: grey;
+        color: white;
+      }
+    
+      #root_modal_label{
+        width: 100%;
+        text-align: center;
+      }
+      #root_modal_label img{
+        height: 60px;
+      }
+      #root_modal_content{
+        background-color: #202020;
+        color: white;
+      }
+      #root_modal_body{
+        text-align: center;
+      }
+      #root_modal_body textarea,
+      #root_modal_body input{
+        width: 90%;
+        margin: 10px 0;
+        height: 37px;
+        border: 2px solid gray;
+        background: none;
+        border-radius: 50px;
+        padding: 5px 10px;
+        color: white;
+      }
+      #root_modal_body textarea{
+        border-radius: 5px;
+        height: 100px;
+      }
+    
+    
+      #root_modal_body textarea:focus,
+      #root_modal_body input:focus{
+        outline: none;
+      }
+      #root_modal_body textarea::placeholder,
+      #root_modal_body input::placeholder{
+        color: white;
+        font-size: 13px;
+      }
+      #root_modal_body button{
+        width: 90%;
+        margin: 30px 0;
+        height: 40px;
+        border: 2px solid#eea84b;
+        background-color: #dbab6e;
+        border-radius: 10px;
+        color: white;
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 500;
+      }
+      #root_modal_body div{
+        text-align: end;
+        padding: 0 30px;
+      }
+      #root_modal_body div span{
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+
+
+      footer{
+        background-color: #302f2f;
+        text-align: end;
+        height: 50px;
+        padding: 0 30px;
+      }
+      footer a{
+        text-decoration: none;
+        color: grey;
+        font-size: 13px;
+        transition: all 0.3s ease;
+      }
+      
+      footer a:hover{
+        text-decoration: underline;
+        color: rgb(114, 114, 114);
+      }
+
+
+
+
+
+    
+      @media(max-width: 768px) {
+        .pin_modal_box form{
+        width: 80%;
+      }
+      nav div h1{
+        font-size: 30px;
+      }
+        }

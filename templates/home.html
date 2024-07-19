@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block title %}Enigma Save{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="static/css/home.css">
+{% endblock %}
+
+{% block body %}
+<nav>
+  <div>
+    <img src="/static/images/logo.png" alt="">
+    <h1>Enigma Save</h1>
+  </div>
+  <div>
+    <button onclick="add_password_modal()" data-bs-toggle="tooltip" data-bs-placement="bottom"
+      data-bs-title="Add Password"><i class="bi bi-plus-square"></i></button>
+    <div class="btn-group">
+      <button data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="bi bi-gear-fill"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li onclick="Change_password_modal()">Change Password</li>
+        <li onclick="Change_vcode_modal()">Change Verfication code</li>
+      </ul>
+    </div>
+    <button onclick="window.location.href = '/logout'" data-bs-toggle="tooltip" data-bs-placement="bottom"
+      data-bs-title="Logout"><i class="bi bi-box-arrow-right"></i></button>
+
+  </div>
+</nav>
+
+<div class="passwords_container">
+  <div class="password_serach_box">
+    <input id="search" type="text" placeholder="Search Name">
+    <button><i class="bi bi-search"></i></button>
+  </div>
+
+  <div class="table-responsive">
+    <table class="table table-dark table-striped table-hover table-sm">
+      <thead>
+        <tr>
+          <th scope="col" width="5%">#</th>
+          <th scope="col" width="25%">Name</th>
+          <th scope="col" width="">Description</th>
+          <th scope="col" width="25%">Action</th>
+        </tr>
+      </thead>
+      <tbody id="password_table">
+      <!-- by_js -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+<!-- pin Modal -->
+<div class="modal fade" id="verfication_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content pin_modal_box">
+      <button type="button" class="btn-close d-none" id="v_modal_close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <header>
+        <i class="bi bi-shield-lock"></i>
+      </header>
+      <h3>Enter Verification Code</h3>
+      <form action="" id="v_code_form">
+        <div>
+          <input type="number" min="0" max="9" maxlength="1" class="v_code_inp">
+          <input type="number" min="0" max="9" maxlength="1" class="v_code_inp">
+          <input type="number" min="0" max="9" maxlength="1" class="v_code_inp">
+          <input type="number" min="0" max="9" maxlength="1" class="v_code_inp">
+          <input type="hidden" id="action_password_id">
+          <input type="hidden" id="action_password_type">
+        </div>
+        <button>Verify</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- root Modal -->
+<div class="modal fade" id="root_modal" tabindex="-1" aria-labelledby="root_modal_label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" id="root_modal_content">
+      <div class="modal-header py-0">
+        <h1 class="modal-title fs-5" id="root_modal_label"></h1>
+        <button id="cls_modal_btn" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="root_modal_body">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}
+
+
+{% block js %}
+<script src="/static/js/modal_handel.js"></script>
+<script src="/static/js/home.js"></script>
+
+{% endblock %}

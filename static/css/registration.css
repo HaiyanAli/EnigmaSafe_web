@@ -1,0 +1,152 @@
+
+body{
+  background-color: #302f2f;
+  font-family: "Ubuntu Sans", sans-serif;
+
+  }
+.body_div{
+    background-color: #302f2f;
+    background-image: url("/static/images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - 50px);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_div{
+    width: 400px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 20px;
+}
+.form_div h1{
+  color: white;
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+}
+.form_div form{
+  text-align: center;
+}
+
+.input_div{
+  color: white;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  margin-top: 20px;
+  padding: 0 10px;
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255, .2);
+  
+}
+.input_div input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+}
+.input_div input:focus{
+  outline: none;
+}
+.input_div input::placeholder{
+  color: white;
+}
+.input_div i{
+  font-size: 22px;
+}
+
+.remb_inp_div{
+  padding: 0 20px;
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.key_show button,
+.form_div form button{
+  width: 95%;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  margin: auto;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form_div form button i{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+#registration_label{
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+  color: white;
+}
+#registration_label a{
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+footer{
+  background-color: #302f2f;
+  text-align: end;
+  height: 50px;
+  padding: 0 30px;
+}
+footer a{
+  text-decoration: none;
+  color: grey;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+footer a:hover{
+  text-decoration: underline;
+  color: rgb(114, 114, 114);
+}
+
+
+.key_show{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+.key_show span{
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+.key_show span:hover{
+  color: #dbab6e;
+  background-color: rgb(82, 82, 245);
+}
+
+.key_show button{
+  width: 70%;
+  transition: all 0.3s ease;
+}
+.key_show button:hover{
+  background-color: #dbab6e;
+  color: white;
+}
+
+.key_show div{
+  margin-top: 30px;
+  text-align: end;
+  font-size: 13px;
+}

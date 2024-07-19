@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}Login{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="static/css/registration.css">
+{% endblock %}
+
+{% block body %}
+
+<div class="body_div">
+  <div class="form_div">
+    <h1>Login</h1>
+    <form class="mt-5" id="form_72">
+      <div class="input_div">
+        <input type="text" id="username" placeholder="Username">
+        <i class="bi bi-person-fill"></i>
+      </div>
+
+      <div class="input_div">
+        <input type="password" id="password" placeholder="Password">
+        <i class="bi bi-lock-fill"></i>
+      </div>
+
+      <div class="remb_inp_div">
+        <label for="remember"><input id="remember" type="checkbox"> Remember me</label>
+        <label for="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="python EnigmaSave.py -P">Forget
+          Password?</label>
+      </div>
+      <button>Login</button>
+    </form>
+    <label id="registration_label" for="">Don't have an account? <a href="">Register</a></label>
+
+
+
+  </div>
+
+</div>
+
+
+
+{% endblock %}
+
+
+
+
+
+
+{% block js %}
+<script src="/static/js/login.js"></script>
+{% endblock %}
