@@ -316,5 +316,5 @@ def logout():
 
 
 
-app.run(host='192.168.1.200', port=80, debug=True)
+app.run()
 
