@@ -3,14 +3,13 @@ import sqlite3
 import os
 import string
 import random
-import hashlib
 from cryptography.fernet import Fernet
 from EnigmaSafe import EnigmaSafe
 
 
 eg = EnigmaSafe()
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here'
+app.secret_key = ''.join(random.choices(string.ascii_letters + string.digits, k=64))
 
 registrantion = False
 
