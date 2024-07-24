@@ -25,7 +25,7 @@ You can deploy Enigma Safe on PythonAnywhere for free. Follow these steps:
 ```
 ![Guide](https://haiyanali.github.io/pfotfolio_static/images/enigma_Safe_guide/03.jpg)
 
-4.  **Change Directory and copy path:**
+5.  **Change Directory and copy path:**
    ```bash
    cd EnigmaSafe_web
 ls
@@ -35,7 +35,7 @@ pwd
 copy the path
 
 
-4.  **Navigate to Web:**  
+6.  **Navigate to Web:**  
     - Come back to the File tab and reload it.   
     - Then you will see the EnigmaSafe_web folder.   
     - Click on 'web'.  
@@ -43,7 +43,7 @@ copy the path
 
 
 
-5.  **Create web App:**    
+7.  **Create web App:**    
     - Click on 'Add a new wen app'  
     - Click on 'Next'  
 
