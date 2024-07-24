@@ -5,8 +5,9 @@ Enigma Safe is a password manager built using Flask and Python, designed to secu
 ## Features
 
 - **Secure Storage:** Safely stores passwords with encryption.
-- **User Authentication:** Requires user login to access stored passwords.
+- **Dual Authentication:** Requires Dual authentication before retrieving passwords.
 - **Password Generation:** Generates strong passwords for new accounts.
+- **Clipboard Copy:** Allows auto-copying passwords to the clipboard for easy pasting into login forms.
 - **Responsive Interface:** Simple and intuitive user interface.
 
 ## Deployment
