@@ -34,12 +34,40 @@ pwd
 ![Guide](https://haiyanali.github.io/pfotfolio_static/images/enigma_Safe_guide/05.jpg)
 copy the path
 
-4.  **Configure Web:**  
-Come back to the File tab and reload it.   
-Then you will see the EnigmaSafe_web folder.   
-Click on 'web'.  
+
+4.  **Navigate to Web:**  
+    - Come back to the File tab and reload it.   
+    - Then you will see the EnigmaSafe_web folder.   
+    - Click on 'web'.  
 ![Guide](https://haiyanali.github.io/pfotfolio_static/images/enigma_Safe_guide/06.jpg)
 
+
+
+5.  **Create web App:**    
+    - Click on 'Add a new wen app'  
+    - Click on 'Next'  
+
+    ![Guide](https://haiyanali.github.io/pfotfolio_static/images/enigma_Safe_guide/07.jpg)
+
+    - Choose 'Flask'  
+    - Click on 'Next' 
+
+    ![Guide](https://haiyanali.github.io/pfotfolio_static/images/enigma_Safe_guide/08.jpg)
+
+
+    - Choose 'Python 3.10'  
+    - Click on 'Next' 
+
+    ![Guide](https://haiyanali.github.io/pfotfolio_static/images/enigma_Safe_guide/09.jpg)
+
+    - Paste the path that you copied and add '/flask_app.py.  
+    - Click on 'Next' 
+
+    ![Guide](https://haiyanali.github.io/pfotfolio_static/images/enigma_Safe_guide/10.jpg)
+
+    - The web app has been created. 
+
+    ![Guide](https://haiyanali.github.io/pfotfolio_static/images/enigma_Safe_guide/11.jpg)
 
 
 
