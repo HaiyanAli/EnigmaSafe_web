@@ -70,5 +70,29 @@ copy the path
     ![Guide](https://haiyanali.github.io/pfotfolio_static/images/enigma_Safe_guide/11.jpg)
 
 
+8.  **Set flask_app.py:**  
+    - Go to console again.
+    - move app.py to flask_app.py.    
+    ```bash
+    mv app.py flask.app.py
+    ```
+    - Exit the console.
+    ```bash
+    exit
+    ```
+    ![Guide](https://haiyanali.github.io/pfotfolio_static/images/enigma_Safe_guide/12.jpg)
 
+8.  **Reload the web-App:** 
+    - Go back to 'Web' and reload the App
+    ![Guide](https://haiyanali.github.io/pfotfolio_static/images/enigma_Safe_guide/13.jpg)
+
+    - When reloading is completed, Click on link.
+    ![Guide](https://haiyanali.github.io/pfotfolio_static/images/enigma_Safe_guide/14.jpg)
+
+9.  **Done!**  
+    -  Do Set-up and enjoy Free password manager. 
+![Guide](https://haiyanali.github.io/pfotfolio_static/images/enigma_Safe_guide/15.jpg)
+
+
+**Note:** You need to click 'Run Until 3 months from today' every 3 months to use it for free.
 
